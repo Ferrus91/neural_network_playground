@@ -9,10 +9,6 @@ def sigmoid(x):
 def sigmoid_derivative(x):
     s = sigmoid(x)
     return s * (1 - s)
-def input(x):
-    return x
-def input_derivative(x):
-    return 1
 def loss(x):
     return 0.5*(Y-x)**2
 def loss_derivative(x):
